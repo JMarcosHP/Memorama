@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="utna.project.memorama" version="3.0">
+  <name>Memorama</name>
+  <description>Proyecto final integrador cuatrimestre 4</description>
+  <author email="memoramautna@gmail.com">
+    Bootstrap Masters Team
+  </author>
+  <content src="index.html" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+
+<platform name="android">
+    <!-- Default 
+    Note: You should specify default resources for each density.
+      For instance, if the device(hdpi) is in landscape orientation and [density="land-hdpi"] 
+      does not exists, [density="hdpi"] will be selected 
+      If you do not declare this you will get MissingDefaultResource lint check errors.
+    -->
+
+    <!--
+    ldpi    : 36x36 px
+    mdpi    : 48x48 px
+    hdpi    : 72x72 px
+    xhdpi   : 96x96 px
+    xxhdpi  : 144x144 px
+    xxxhdpi : 192x192 px
+    -->
+    <icon src="res/android/ldpi.png" density="ldpi" />
+    <icon src="res/android/mdpi.png" density="mdpi" />
+    <icon src="res/android/hdpi.png" density="hdpi" />
+    <icon src="res/android/xhdpi.png" density="xhdpi" />
+    <icon src="res/android/xxhdpi.png" density="xxhdpi" />
+    <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+
+    <!--<splash src="res/screen/android/splash-port-hdpi.png" density="hdpi"/>
+    <splash src="res/screen/android/splash-port-ldpi.png" density="ldpi"/>
+    <splash src="res/screen/android/splash-port-mdpi.png" density="mdpi"/>
+    <splash src="res/screen/android/splash-port-xhdpi.png" density="xhdpi"/>
+    <splash src="res/screen/android/splash-port-xxhdpi.png" density="xxhdpi"/>
+    -->
+    
+    <!-- Landscape -->
+    <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi" />
+    <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi" />
+    <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi" />
+    <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi" />
+    <splash src="res/screen/android/splash-land-xxhdpi.png" density="land-xxhdpi" />
+    <splash src="res/screen/android/splash-land-xxxhdpi.png" density="land-xxxhdpi" />
+
+    <!-- Portrait -->
+    <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi" />
+    <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi" />
+    <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi" />
+    <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi" />
+    <splash src="res/screen/android/splash-port-xxhdpi.png" density="port-xxhdpi" />
+    <splash src="res/screen/android/splash-port-xxxhdpi.png" density="port-xxxhdpi" />
+  
+    <!-- Dark Mode
+    <splash src="res/screen/android/splash-land-night-hdpi.png" density="land-night-hdpi" />
+    <splash src="res/screen/android/splash-land-night-ldpi.png" density="land-night-ldpi" />
+    <splash src="res/screen/android/splash-land-night-mdpi.png" density="land-night-mdpi" />
+    <splash src="res/screen/android/splash-land-night-xhdpi.png" density="land-night-xhdpi" />
+    <splash src="res/screen/android/splash-land-night-xxhdpi.png" density="land-night-xxhdpi" />
+    <splash src="res/screen/android/splash-land-night-xxxhdpi.png" density="land-night-xxxhdpi" />
+
+    <splash src="res/screen/android/splash-port-night-hdpi.png" density="port-night-hdpi" />
+    <splash src="res/screen/android/splash-port-night-ldpi.png" density="port-night-ldpi" />
+    <splash src="res/screen/android/splash-port-night-mdpi.png" density="port-night-mdpi" />
+    <splash src="res/screen/android/splash-port-night-xhdpi.png" density="port-night-xhdpi" />
+    <splash src="res/screen/android/splash-port-night-xxhdpi.png" density="port-night-xxhdpi" />
+    <splash src="res/screen/android/splash-port-night-xxxhdpi.png" density="port-night-xxxhdpi" />
+    -->
+</platform>
+
+  <preference name="SplashScreenDelay" value="5000" />
+  <preference name="AutoHideSplashScreen" value="true" />
+  <preference name="FadeSplashScreen" value="true"/>
+</widget>

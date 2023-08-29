@@ -1,0 +1,454 @@
+/* FONDO PRINCIPAL */
+.index {
+  background: #fc00ff;
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+}
+
+/* Colores de fondo del nivel extremo*/
+.bodyextremo {
+  background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%);
+}
+
+/* Colores de fondo del nivel dificil */
+.bodydificil {
+  background: linear-gradient(to right, red, orange, yellow);
+}
+
+/* Colores de fondo del nivel facil */
+.bodyfacil {
+  background: linear-gradient(to right, #2176AE, #57B8FF, #00A1E4);
+}
+
+/* Colores de fondo del nivel medio */
+.bodymedio {
+  background: linear-gradient(to right, #A09ABC, #B6A6CA, #D5CFE1);
+}
+
+/* DISEÑO DE BOTONES */
+.facil {
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+  margin: 10px;
+  padding: 5px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.medio {
+  background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%);
+  margin: 10px;
+  padding: 5px 27px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.dificil {
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c21500 100%);
+  margin: 10px;
+  padding: 5px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.extremo {
+  background-image: linear-gradient(to right, #000000 0%, #e74c3c  51%, #000000  100%);
+  margin: 10px;
+  padding: 13px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad-salir {
+  background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  --bs-btn-font-family: 'Comfortaa', cursive;
+  --bs-btn-font-weight: bold;
+}
+
+.btn-grad-salir:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .btn-grad {
+  background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+} */
+
+/* TIPOGRAFÍAS PARA LA APP */
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(../fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf);
+  font-style: 700;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(../fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(../fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  font-weight: 1000;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf);
+  font-weight: normal;
+}
+
+.text-font {
+  font-family: 'Comfortaa', cursive;
+}
+
+.h-font {
+  font-family: 'Red Hat Display';
+  font-weight: bold;
+}
+
+.footer-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.nav-font {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+}
+
+.crono-font {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.table-thead-font {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.table-tbody-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* CSS MEMORIA */
+.container-memory-facil {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: .5rem;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-memory-normal {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: .5rem;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-memory-dificil {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: .5rem;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-memory-extremo {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: .5rem;
+  margin: auto;
+  padding: 20px;
+}
+
+.cell-facil div:active{
+  transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform .2s;
+}
+
+.cell-normal div:active{
+  transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform .2s;
+}
+
+.cell-dificil div:active{
+  transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform .2s;
+}
+
+.cell-extremo div:active{
+  transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform .2s;
+}
+
+.cell-dificil div {
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: rgb(0, 255, 242);
+}
+
+.cell-extremo div:active{
+  transform: scale(0.97);
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform .2s;
+}
+
+.cell-facil div {
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: rgb(0, 255, 242);
+}
+
+.cell-facil {
+  position: relative;
+  cursor: pointer;
+}
+
+.cell-normal div {
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: rgb(137, 33, 255);
+}
+
+.cell-normal {
+  position: relative;
+  cursor: pointer;
+}
+
+.cell-dificil div {
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: rgb(255, 0, 242);
+}
+
+.cell-dificil {
+  position: relative;
+  cursor: pointer;
+}
+
+.cell-extremo div {
+  height: 60px;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: rgb(226, 121, 1);
+}
+
+.cell-extremo {
+  position: relative;
+  cursor: pointer;
+}
+
+.front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #a6a6a6;
+  background-color: #ffffff;
+  transform: rotateY(90deg);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.5s;
+  -o-transform-style: preserve-3d;
+  -o-transition: -o-transform 0.5s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: -moz-transform 0.5s;
+}
+
+
+.back {
+  /*background-color: #333;*/
+  /*background-image: url('../img/Fondo1.jpg');*/
+  /*background-position: center;*/
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img-memory-facil {
+  height: 50px;
+  width: 35px;
+}
+
+.img-memory-normal {
+  height: 50px;
+  width: 35px;
+}
+
+.img-memory-dificil {
+  height: 50px;
+  width: 35px;
+}
+
+.img-memory-extremo {
+  height: 50px;
+  width: 35px;
+}
+
+.flip {
+  transform: rotateY(0deg);
+}
+
+.match {
+  transform: rotateY(0deg);
+}
+
+.show {
+  transform: rotateY(0deg);
+}
+
+@media screen and (min-width: 770px) {
+  .head {
+    max-width: 760px;
+  }
+
+  .container-memory-facil {
+    grid-template-columns: repeat(6, auto);
+  }
+
+  .container-memory-normal {
+    grid-template-columns: repeat(8, auto);
+  }
+
+  .container-memory-dificil {
+    grid-template-columns: repeat(9, auto);
+  }
+
+  .container-memory-extremo {
+    grid-template-columns: repeat(12, auto);
+  }
+
+  .cell-facil div {
+    height: 60px;
+  }
+
+  .cell-normal div {
+    height: 60px;
+  }
+
+  .cell-dificil div {
+    height: 60px;
+  }
+
+  .cell-extremo div {
+    height: 60px;
+  }
+}

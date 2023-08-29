@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta
+  name="viewport"
+  content="initial-scale=1, width=device-width, viewport-fit=cover"
+  />
+
+  <!-- Icon -->
+  <link
+    rel="shortcut icon"
+    href="img/ic_launcher-web.png"
+    type="image/x-icon"
+  />
+
+  <!-- CSS only -->
+  <!--<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+  crossorigin="anonymous"
+  />-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="css/index.css" />
+
+  <!-- Font awesome icons -->
+  <!--<script
+  src="https://kit.fontawesome.com/4f13d0a9da.js"
+  crossorigin="anonymous">
+  </script>-->
+  <link rel="stylesheet" href="awesome-icons/css/all.css" />
+
+  <!-- Fonts -->
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300;700&family=Rajdhani&family=Red+Hat+Display:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  -->
+  
+  <title>Proyecto Memorama</title>
+</head>
+
+<body class="index d-flex flex-column min-vh-100">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/memorama-transparent.png" alt="logo-memorama" width="25px" height="25px"></a>
+      <button class="navbar-toggler" type="submit" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-font" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Jugar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="scoreboard.html">Tabla de puntuaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="salirApp()">Salir de la app</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="mx-4 my-4 bg-black bg-opacity-75 rounded rounded-4">
+          <h1 class="p-3 text-center text-light h-font"><b>Instrucciones:</b></h1>
+          <p class="p-3 text-center text-light text-font">
+            Selecciona dos cartas, si coinciden 
+            y tienen el mismo dibujo,
+            aciertas un punto y sigue
+            levantado más.
+            Si por el contrario no coinciden
+            regresan en su lugar.
+            Ganas con el menor tiempo.
+            <br>
+            <br>
+            <b>¡QUE TE DIVIERTAS!</b> 
+          </p>
+        </div>
+        <div class="text-center">
+          <a href="login.html"><button class="btn btn-grad pe-auto text-center">Comenzar</button></a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="mt-5"></div>
+  <br>
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white border-top border-danger mt-auto border-5" >
+    <!-- Grid container -->
+    <div class="container p-4">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+    
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/MemoramaUTNA" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/memorama_utna" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Correo -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ff0000" 
+          onclick="email()" role="button"><i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/memoramautna/" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/JMarcosHP/Memorama" role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
+            <p class="text-center footer-font">v3.0</p>
+            <h5 class="text-uppercase h-font mb-3">Desarrolladores:</h5>
+
+            <ul class="list-unstyled mb-0 footer-font">
+              <li>
+                <p>J. Alondra Elias Dávila</p>
+              </li>
+              <li>
+                <p>Jehú Marcos Herrera Puentes</p>
+              </li>
+              <li>
+                <p>Karen Jaqueline Rodríguez Rodríguez</p>
+              </li>
+              <li>
+                <p>Luis Alberto Díaz Monreal</p>
+              </li>
+              <li>
+                <p>Omar Vazquez Ortiz</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 text-font" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2022 Copyright: Bootstrap Masters Team
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="cordova.js"></script>
+  <script src="js/index.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <!--<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+  crossorigin="anonymous">
+  </script>-->
+</body>
+</html>
