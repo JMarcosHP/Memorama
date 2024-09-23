@@ -120,21 +120,7 @@
   text-decoration: none;
 }
 
-/* .btn-grad {
-  background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
-  margin: 10px;
-  padding: 15px 45px;
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;            
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-} */
-
 /* TIPOGRAFÍAS PARA LA APP */
-
 @font-face {
   font-family: 'Red Hat Display';
   src: url(../fonts/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf);
@@ -221,7 +207,7 @@
   font-weight: 300;
 }
 
-/* CSS MEMORIA */
+/* DISEÑO DE LAS CARTAS */
 .container-memory-facil {
   max-width: 960px;
   display: grid;
@@ -373,11 +359,7 @@
   -moz-transition: -moz-transform 0.5s;
 }
 
-
 .back {
-  /*background-color: #333;*/
-  /*background-image: url('../img/Fondo1.jpg');*/
-  /*background-position: center;*/
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -403,6 +385,7 @@
   width: 35px;
 }
 
+/* ANIMACIÓN DE LAS CARTAS */
 .flip {
   transform: rotateY(0deg);
 }

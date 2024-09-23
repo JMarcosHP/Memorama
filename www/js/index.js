@@ -1,14 +1,4 @@
-function email(){
-  cordova.plugins.email.open({
-    app: 'mailto',
-    to: 'memoramautna@gmail.com',
-    cc: '',
-    subject: 'Feedback',
-    Body: ''
-  })
-}
-
-// ALERTA PARA SALIR DE LA APP
+// ALERTA PARA SALIR DE LA APP.
 function salirApp(){
   function onConfirm(buttonIndex){
     if (buttonIndex == 1){
@@ -27,12 +17,23 @@ function salirApp(){
   )
 }
 
-// FUNCIONALIDAD BOTÓN DE RETROCESO
-document.addEventListener("deviceready", onDeviceReady, false);
+// FUNCIONALIDAD DEL BOTÓN DE RETROCESO EN EL DISPOSITIVO PARA SALIR DEL JUEGO.
+document.addEventListener("deviceready", onDeviceReady, false)
 function onDeviceReady(){
   document.addEventListener("backbutton", onBackKeyDown, false)
 }
 function onBackKeyDown(e){
   e.preventDefault()
   salirApp()
+}
+
+// SOPORTE PARA EL BOTÓN DE CORREO ELECTRÓNICO.
+function email(){
+  cordova.plugins.email.open({
+    app: 'mailto',
+    to: 'memoramautna@gmail.com',
+    cc: '',
+    subject: 'Feedback',
+    Body: ''
+  })
 }
